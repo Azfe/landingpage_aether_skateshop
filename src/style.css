@@ -3,12 +3,20 @@
 @theme {
   --font-display: "Inika", "Satoshi", "Montserrat", "sans-serif";
   --breakpoint-3xl: 1920px;
-  --color-primary: #CC2D4A;
-  --color-secondary: #8FA206;
-	--color-tertiary: #61AEC9;
+  --color-primary: #D7062F;
+  --color-secondary: #A6ED8E;
+	--color-tertiary: #12054A;
   --color-white: #ffffff;
   --color-black: #000000;
-  --color-gray-neutral: #454545;
+  --color-gray-80: #303030;
+  --color-gray-75: #484848;
+  --color-gray-50: #848484;
+  --color-gray-37: #BABABA;
+  --color-gray-25: #C5C5C5;
+  --color-gray-background: #F0F0F0;
+  --color-status-error: #D7062F;
+  --color-status-warning: #E8E800;
+  --color-status-success: #78E055;
   --color-avocado-500: oklch(0.84 0.18 117.33);
   --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
@@ -30,6 +38,11 @@
 }
 
 /* Images */
+.bg-hero{
+  background-image: url('./src/assets/images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 
 
