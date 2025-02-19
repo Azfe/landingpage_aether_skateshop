@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Inika"/*, "Satoshi", "sans-serif"*/;
+  --font-display: "Inika", "Satoshi", "Montserrat", "sans-serif";
   --breakpoint-3xl: 1920px;
   --color-primary: #CC2D4A;
   --color-secondary: #8FA206;
@@ -15,7 +15,7 @@
 }
 
 :root {
-  font-family: "Inika" /*, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif*/;
+  font-family: "Inika", "Montserrat", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
