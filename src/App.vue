@@ -11,6 +11,8 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <div class="w-full h-150 bg-hero bg-cover bg-center">    
+  </div>
   <div class="Inika">Esto está usando la fuente Inika.</div>
   <HelloWorld msg="Vite + Vue" />
 </template>
