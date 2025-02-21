@@ -1,8 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import HeroLanding from './components/HeroLanding.vue'
+import HeroSection from './components/HeroSection.vue'
 import NavbarMenu from './components/NavbarMenu.vue'
 import TabbarMobile from './components/TabbarMobile.vue'
+import ProductsSection from './components/ProductsSection.vue'
+import FooterSection from './components/FooterSection.vue'
 </script>
 
 <template>
@@ -11,24 +12,15 @@ import TabbarMobile from './components/TabbarMobile.vue'
   <!-- Content -->
   <section class="w-full h-auto">
     <NavbarMenu />
-    <HeroLanding />
-    <TabbarMobile />
+    <HeroSection />
+    <ProductsSection />    
 
   </section>
-
-
-
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
+  <!-- Footer -->
+  <FooterSection/>
+  <!-- Tabbar Mobile -->
+  <TabbarMobile />
   
-  <div class="Inika">Esto está usando la fuente Inika.</div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 
