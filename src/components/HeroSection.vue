@@ -13,32 +13,21 @@
         </div>
     </section>
     <!-- CTA Hero -->
-    <div class="w-full bg-tertiary bg-cover bg-center">
-        <div class="flex items-center space-x-20 text-white py-20 mx-20">
-            <div class="space-y-8">
+    <section class="w-full bg-tertiary">
+        <div class="flex flex-col lg:flex-row lg:space-x-20 py-10 text-white mx-30">
+            <div class="flex flex-col lg:w-1/2 lg:order-1 lg:pl-8 space-y-8 py-10 md:items-center">
                 <h2 class="text-5xl">Vive el skate cada día</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum  tempus nibh, ultricies sodales magna dictum in. Ut porttitor eros in  purus tincidunt auctor. Aliquam semper dolor at erat scelerisque  pretium. Fusce lorem tortor, rhoncus quis enim faucibus, facilisis  pellentesque metus.
                 </p>
-                <button class=" outline-1 outline-offset-4 outline-solid rounded-md px-8">Empezar a rodar</button>
+                <button class=" outline-1 outline-offset-4 outline-solid rounded-md px-25 mt-2 hover:outline-primary hover:text-primary transition duration-300">
+                    Empezar a rodar
+                </button>
             </div>
-            <div class="w-3/4">
+            <div class="flex lg:order-2 lg:w-1/2 py-10 items-center">
                 <img src="../assets/images/vive_el_skate.jpg" alt="Vive el skate" class="rounded-4xl">
             </div>            
         </div>              
-    </div>
-    <!-- CTA Hero Test -->
-    <section class="container mx-auto p-4">
-        <div class="flex flex-col lg:flex-row">            
-            <div class="flex flex-col lg:w-1/2 lg:order-1 lg:pl-8">
-                <h1 class="text-4xl font-bold mb-4">Título de la Sección</h1>
-                <p class="text-lg mb-4">Este es el texto descriptivo de la sección. Aquí puedes agregar información relevante.</p>
-                <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Click Me</button>
-            </div>
-            <div class="lg:order-2 lg:w-1/2">
-                <img src="../assets/images/vive_el_skate.jpg" alt="Descripción de la imagen" class="w-full h-auto">
-            </div>
-        </div>
     </section>
 </template>
 
