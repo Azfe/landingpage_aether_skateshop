@@ -4,7 +4,7 @@
 <template>
     <!-- Hero -->
     <section class="w-full h-150 bg-hero bg-cover bg-center">
-        <div class="flex items-center h-full text-white pt-25 mx-20">
+        <div class="flex items-center h-full text-white pt-25 mx-30">
             <img src="../assets/images/logo/logo_aether_skateshop.svg" alt="logo_aether_skateshop" class="logo w-20 h-20 mr-4">
             <div>
                 <h1 class="logotext text-4xl font-bold">Aether Skateshop</h1>
