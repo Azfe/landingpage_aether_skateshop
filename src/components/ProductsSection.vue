@@ -6,7 +6,7 @@
     <section class="w-full h-full bg-white">
         <div class="flex flex-col py-20 mx-30">
             <h2 class="text-5xl text-primary text-center font-bold">Skateboards</h2>
-            <hr class="border-t-6 border-secondary w-65 mx-auto my-7 w-3/4 rounded-full">            
+            <hr class="border-t-6 border-secondary w-65 mx-auto my-7 rounded-full">            
             <p class="text-center text-tertiary text-base mt-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum tempus nibh, ultricies sodales magna dictum in. Ut porttitor eros in purus tincidunt auctor. Aliquam semper dolor at erat scelerisque pretium. Fusce lorem tortor, rhoncus quis enim faucibus, facilisis pellentesque metus. Donec a consequat orci, ut facilisis tellus. Mauris non tortor tellus. Donec urna quam, placerat vel quam sit amet, malesuada aliquam lacus.
             </p>            
