@@ -55,6 +55,15 @@
   background-position: center;
 }
 
+/* Cards */
+.Card{
+  @apply w-96 h-full flex-none shadow-md rounded-4xl transform transition-all hover:-translate-y-4 hover:shadow-xl my-10;
+}
+
+.CardTitle{
+  @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white;
+}
+
 
 
 /*
