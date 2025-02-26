@@ -16,7 +16,7 @@
             <div class="flex flex-col space-y-2 py-6 mx-auto items-center">
                 <h6 class="text-gray-75">Skate completo</h6>
                 <h4 class="text-primary">Tarot Moon Complete</h4>
-                <small class="text-gray-75">7.75" - 8.25"</small>                                
+                <small class="text-gray-75">7.75" - 8.25"</small>                           
             </div>
             <button class="
                 bg-primary text-white border border-transparent rounded-md px-20 py-1 mx-auto

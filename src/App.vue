@@ -4,18 +4,22 @@ import NavbarMenu from './components/NavbarMenu.vue'
 import TabbarMobile from './components/TabbarMobile.vue'
 import ProductsSection from './components/ProductsSection.vue'
 import FooterSection from './components/FooterSection.vue'
+import CTASection from './components/CTASection.vue'
+import VideosSection from './components/VideosSection.vue'
 </script>
 
 <template>
   <!-- Navbar -->
 
   <!-- Content -->
-  <section class="w-full h-auto">
+  <div class="w-full h-auto">
     <NavbarMenu />
     <HeroSection />
-    <ProductsSection />    
+    <ProductsSection /> 
+    <CTASection />  
+    <VideosSection />
 
-  </section>
+  </div>
   <!-- Footer -->
   <FooterSection/>
   <!-- Tabbar Mobile -->
