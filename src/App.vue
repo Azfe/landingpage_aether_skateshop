@@ -6,6 +6,7 @@ import ProductsSection from './components/ProductsSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import CTASection from './components/CTASection.vue'
 import VideosSection from './components/VideosSection.vue'
+import SubscriptionSection from './components/SubscriptionSection.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import VideosSection from './components/VideosSection.vue'
     <ProductsSection /> 
     <CTASection />  
     <VideosSection />
+    <SubscriptionSection />
 
   </div>
   <!-- Footer -->
