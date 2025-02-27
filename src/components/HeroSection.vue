@@ -4,7 +4,7 @@
 <template>
     <!-- Hero -->
     <section class="w-full h-150 bg-hero bg-cover bg-center">
-        <div class="flex items-center h-full text-white pt-25 mx-30">
+        <div class="flex items-center h-full text-white pb-70 lg:pt-87 mx-30 transition-all duration-500 ease-in-out">
             <img src="../assets/images/logo/logo_aether_skateshop.svg" alt="logo_aether_skateshop" class="logo w-20 h-20 mr-4">
             <div>
                 <h1 class="logotext text-4xl font-bold">Aether Skateshop</h1>
@@ -20,7 +20,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum  tempus nibh, ultricies sodales magna dictum in. Ut porttitor eros in  purus tincidunt auctor. Aliquam semper dolor at erat scelerisque  pretium. Fusce lorem tortor, rhoncus quis enim faucibus, facilisis  pellentesque metus.
                 </p>
-                <button class=" outline-1 outline-offset-4 outline-solid rounded-md px-25 mt-2 hover:outline-primary hover:text-primary transition duration-300">
+                <button class=" outline-1 outline-offset-4 outline-solid rounded-md px-25 mt-2 hover:outline-primary hover:text-primary transition duration-300 cursor-pointer">
                     Empezar a rodar
                 </button>
             </div>
