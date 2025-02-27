@@ -7,6 +7,7 @@ import FooterSection from './components/FooterSection.vue'
 import CTASection from './components/CTASection.vue'
 import VideosSection from './components/VideosSection.vue'
 import SubscriptionSection from './components/SubscriptionSection.vue'
+import RRSSSection from './components/RRSSSection.vue'
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import SubscriptionSection from './components/SubscriptionSection.vue'
     <CTASection />  
     <VideosSection />
     <SubscriptionSection />
+    <RRSSSection />
 
   </div>
   <!-- Footer -->

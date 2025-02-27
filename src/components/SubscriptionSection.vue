@@ -11,8 +11,8 @@
                 </p>
             </div>
             <!-- Subscription -->        
-            <div class="flex flex-col lg:flex-row lg:w-2/4 py-20 gap-12">
-                <div class="flex flex-col gap-8 items-end">
+            <div class="flex flex-col lg:flex-row lg:w-2/4 lg:py-20 gap-12">
+                <div class="flex flex-col gap-4 items-end">
                     <div class="flex flex-col gap-4">
                         <input 
                             type="email" 
@@ -36,7 +36,7 @@
 
         </div>              
         
-        <div>
+        <div class="pb-10">
             <p class="text-gray-75 text-center">*Oferta válida para nuevos suscriptores</p>
         </div>
     </section>
