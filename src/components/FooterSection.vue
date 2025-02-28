@@ -1,6 +1,6 @@
 <template>    
     <!-- Footer -->
-    <section class="w-full h-full bg-tertiary">
+    <section id="footer" class="w-full h-full bg-tertiary">
         <div class="flex flex-wrap justify-between mx-20 py-20 gap-10 lg:gap-0">
             <div class="w-full md:w-1/2 lg:w-1/4 max-w-xs px-8">
                 <h4 class="uppercase">Nuestra tienda</h4>

@@ -1,31 +1,46 @@
 <script setup>
+    import { ref, onMounted, onUnmounted } from 'vue';
+
+    const isFixed = ref(false);
+
+    const handleScroll = () => {
+        if (window.scrollY > 0) {
+            isFixed.value = true;  // Fijar la navbar en la parte superior
+            console.log('Fijar la navbar en la parte superior');
+        } else {
+            isFixed.value = false; // Restaurar margen original
+        }
+    };
+
+    onMounted(() => {
+    window.addEventListener('scroll', handleScroll);
+    });
+
+    onUnmounted(() => {
+    window.removeEventListener('scroll', handleScroll);
+    });
+
 </script>
 
 <template>
 <!--Navbar-->
-    <nav class="hidden lg:flex w-full h-14 bg-white justify-between p-4 fixed top-0 z-50">
-        <div class="w-auto h-auto">
-            <h1 class="font-black text-principal text-lg text-primary">Go! Travel</h1>
-        </div>
-        <div class=" flex flex-row space-x-10">
-            <a href="#home" class="font-bold text-primary hover:text-tertiary">Inicio</a>
-            <a href="#our_recomendations"class="font-bold text-primary hover:text-tertiary">Recomendados</a>
-            <a href="#trending_stays"class="font-bold text-primary hover:text-tertiary">Rentas</a>
-            <a href="#faqs"class="font-bold text-primary hover:text-tertiary">FAQS</a>
-            <a href="#footer"class="font-bold text-primary hover:text-tertiary">Sobre nosotros</a>
+    <!-- <nav class="hidden lg:flex w-3/4 h-14 bg-white rounded-4xl p-4 fixed top-8 z-50 left-1/2 transform -translate-x-1/2 transition-all duration-300">-->
+    <nav 
+        :class="['hidden lg:flex w-3/4 h-14 bg-white rounded-4xl p-4 fixed z-50 left-1/2 transform -translate-x-1/2 transition-all duration-300', 
+        isFixed ? 'top-0 shadow-lg' : 'top-8']"
+    >
+        <div class=" flex flex-row space-x-10 mx-auto justify-between">
+            <a href="#home" class="font-semibold text-primary hover:text-tertiary">Inicio</a>            
+            <a href="#products"class="font-semibold text-primary hover:text-tertiary">Productos</a>
+            <a href="#videos"class="font-semibold text-primary hover:text-tertiary">Videos</a>
+            <a href="#footer"class="font-semibold text-primary hover:text-tertiary">Sobre nosotros</a>
         </div>
         <div class="flex space-x-4">
             <div class="text-primary hover:text-tertiary cursor-pointer">
                 <svg width="22" height="22" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"> 
                     <path class="fill-current" fill-rule="evenodd" clip-rule="evenodd" d="M8 3.99997C6.93913 3.99997 5.92172 4.4214 5.17157 5.17155C4.42143 5.92169 4 6.93911 4 7.99997C4 9.06084 4.42143 10.0783 5.17157 10.8284C5.92172 11.5785 6.93913 12 8 12C9.06087 12 10.0783 11.5785 10.8284 10.8284C11.5786 10.0783 12 9.06084 12 7.99997C12 6.93911 11.5786 5.92169 10.8284 5.17155C10.0783 4.4214 9.06087 3.99997 8 3.99997ZM2 7.99997C1.99988 7.05568 2.22264 6.12468 2.65017 5.28271C3.0777 4.44074 3.69792 3.71157 4.4604 3.1545C5.22287 2.59743 6.10606 2.22819 7.03815 2.07681C7.97023 1.92543 8.92488 1.99618 9.82446 2.28332C10.724 2.57046 11.5432 3.06587 12.2152 3.72927C12.8872 4.39266 13.3931 5.20531 13.6919 6.10111C13.9906 6.9969 14.0737 7.95056 13.9343 8.88452C13.795 9.81848 13.4372 10.7064 12.89 11.476L17.707 16.293C17.8892 16.4816 17.99 16.7342 17.9877 16.9964C17.9854 17.2586 17.8802 17.5094 17.6948 17.6948C17.5094 17.8802 17.2586 17.9854 16.9964 17.9876C16.7342 17.9899 16.4816 17.8891 16.293 17.707L11.477 12.891C10.5794 13.5293 9.52335 13.9081 8.42468 13.9861C7.326 14.0641 6.22707 13.8381 5.2483 13.3329C4.26953 12.8278 3.44869 12.063 2.87572 11.1223C2.30276 10.1816 1.99979 9.10141 2 7.99997Z"/> 
                 </svg>
-            </div>
-            
-            <button id="toggle" class="text-primary hover:text-tertiary cursor-pointer">
-                <svg width="22" height="22" viewBox="0 0 29 29" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path class="fill-current" d="M25.0748 19.2748C22.9267 20.2465 20.5334 20.5405 18.214 20.1177C15.8945 19.6949 13.7589 18.5753 12.0918 16.9082C10.4246 15.241 9.30509 13.1055 8.88228 10.786C8.45946 8.46654 8.75347 6.0733 9.72512 3.92514C8.01494 4.69801 6.51777 5.87422 5.36208 7.35288C4.20638 8.83154 3.42666 10.5685 3.08979 12.4147C2.75293 14.261 2.86898 16.1614 3.428 17.9529C3.98702 19.7444 4.97232 21.3736 6.29935 22.7006C7.62639 24.0276 9.25556 25.0129 11.0471 25.572C12.8386 26.131 14.739 26.247 16.5852 25.9102C18.4315 25.5733 20.1684 24.7936 21.6471 23.6379C23.1257 22.4822 24.302 20.985 25.0748 19.2748V19.2748Z"/>
-                </svg>
-            </button>
+            </div>            
 
             <div 
                 @click="openFormLogin"

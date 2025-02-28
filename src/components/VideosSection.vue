@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <section class="w-full h-full bg-white">
+    <section id="videos" class="w-full h-full bg-white">
         <div class="w-full h-1 bg-white"></div>
         <hr class="border-t-3 border-secondary w-4/5 mx-auto my-17 rounded-full">
         <div class="flex flex-col lg:flex-row mx-30 gap-12">

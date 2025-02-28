@@ -3,7 +3,7 @@
 
 <template>
     <!-- Hero -->
-    <section class="w-full h-150 bg-hero bg-cover bg-center">
+    <section id="home" class="w-full h-150 bg-hero bg-cover bg-center">
         <div class="flex items-center h-full text-white pb-70 lg:pt-87 mx-30 transition-all duration-500 ease-in-out">
             <img src="../assets/images/logo/logo_aether_skateshop.svg" alt="logo_aether_skateshop" class="logo w-20 h-20 mr-4">
             <div>
