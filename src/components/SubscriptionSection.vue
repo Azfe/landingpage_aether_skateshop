@@ -4,7 +4,7 @@
 <template>
     <section class="w-full h-full bg-secondary">  
         <div class="flex flex-col lg:flex-row mx-30 py-10 lg:gap-12">
-            <div class="flex flex-col lg:w-2/4 py-10 gap-12">
+            <div class="flex flex-col lg:w-2/4 py-10 gap-8">
                 <h3 class="text-4xl font-bold text-tertiary">15% DE DESCUENTO EN TU PRIMERA COMPRA ONLINE*</h3>
                 <p class="text-base text-gray-75">
                     Suscríbete ahora para recibir las ultimas informaciones y ofertas exclusivas.                
@@ -37,7 +37,7 @@
         </div>              
         
         <div class="pb-10">
-            <p class="text-gray-75 text-center">*Oferta válida para nuevos suscriptores</p>
+            <p class="text-gray-75 text-center">(*) Oferta valida online para los nuevos inscritos. Condiciones de uso detalladas en el email de bienvenida.</p>
         </div>
     </section>
 </template>
