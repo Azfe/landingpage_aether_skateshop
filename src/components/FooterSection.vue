@@ -1,7 +1,7 @@
 <template>    
     <!-- Footer -->
     <section class="w-full h-full bg-tertiary">
-        <div class="flex flex-wrap justify-evenly mx-20 py-20">
+        <div class="flex flex-wrap justify-between mx-20 py-20 gap-10 lg:gap-0">
             <div class="w-full md:w-1/2 lg:w-1/4 max-w-xs px-8">
                 <h4 class="uppercase">Nuestra tienda</h4>
                 <hr class="border-t-1 border-white w-50 my-2 rounded-full"> 
@@ -15,7 +15,7 @@
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4 max-w-xs px-8">
                 <h4 class="uppercase">Productos</h4>
-                <hr class="border-t-1 border-white w-50 my-2 rounded-full"> 
+                <hr class="border-t-1 border-white w-50 my-2 rounded-full">
                 <ul>
                     <li>Los más vendidos</li>
                     <li>Ofertas</li>
