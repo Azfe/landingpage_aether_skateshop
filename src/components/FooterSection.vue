@@ -1,12 +1,10 @@
-<script setup>
-</script>
-
-<template>
-    <section class="w-full h-200 bg-tertiary">
-        <div class="flex flex-row">
-            <div class="flex flex-col">
+<template>    
+    <!-- Footer -->
+    <section class="w-full h-full bg-tertiary">
+        <div class="flex flex-wrap justify-evenly mx-20 py-20">
+            <div class="w-full md:w-1/2 lg:w-1/4 max-w-xs px-8">
                 <h4 class="uppercase">Nuestra tienda</h4>
-                <hr class="border-t-1 border-white w-50 mx-auto my-2 rounded-full"> 
+                <hr class="border-t-1 border-white w-50 my-2 rounded-full"> 
                 <ul>
                     <li>Devoluciones</li>
                     <li>Política de privacidad</li>
@@ -15,27 +13,27 @@
                     <li>Forma de pago</li>
                 </ul>
             </div>
-            <div class="flex flex-col">
+            <div class="w-full md:w-1/2 lg:w-1/4 max-w-xs px-8">
                 <h4 class="uppercase">Productos</h4>
-                <hr class="border-t-1 border-white w-50 mx-auto my-2 rounded-full"> 
+                <hr class="border-t-1 border-white w-50 my-2 rounded-full"> 
                 <ul>
                     <li>Los más vendidos</li>
                     <li>Ofertas</li>
                     <li>Novedades</li>                    
                 </ul>
             </div>
-            <div class="flex flex-col">
+            <div class="w-full md:w-1/2 lg:w-1/4 max-w-xs px-8">
                 <h4 class="uppercase">Cómo elegir el material</h4>
-                <hr class="border-t-1 border-white w-50 mx-auto my-2 rounded-full"> 
+                <hr class="border-t-1 border-white w-50 my-2 rounded-full"> 
                 <ul>
                     <li>Qué skate completo elegir</li>
                     <li>Skate para principiantes</li>
                     <li>Cómo elegir un skate para bowl o rampa</li>                    
                 </ul>
             </div>
-            <div class="flex flex-col">
+            <div class="w-full md:w-1/2 lg:w-1/4 max-w-xs px-8">
                 <h4 class="uppercase">Información de la tienda</h4>
-                <hr class="border-t-1 border-white w-50 mx-auto my-2 rounded-full"> 
+                <hr class="border-t-1 border-white w-50 my-2 rounded-full"> 
                 <ul>
                     <li>Devoluciones</li>
                     <li>Política de privacidad</li>
@@ -45,7 +43,9 @@
                 </ul>
             </div>
         </div>
-
-    </section>
-    
+    </section>   
 </template>
+
+<script setup>
+
+</script>
