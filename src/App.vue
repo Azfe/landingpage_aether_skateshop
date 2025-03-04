@@ -16,6 +16,7 @@ import RRSSSection from './components/RRSSSection.vue'
   <!-- Content -->
   <div class="w-full h-auto">
     <NavbarMenu />
+    <TabbarMobile />
     <HeroSection />
     <ProductsSection /> 
     <CTASection />  
@@ -27,7 +28,6 @@ import RRSSSection from './components/RRSSSection.vue'
   <!-- Footer -->
   <FooterSection/>
   <!-- Tabbar Mobile -->
-  <TabbarMobile />
   
 </template>
 
