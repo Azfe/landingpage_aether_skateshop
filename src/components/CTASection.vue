@@ -10,7 +10,7 @@
                     <p class="text-lg">Nueva colección de ropa</p>
                 </div>
                 <button class="
-                    bg-primary text-white border border-transparent rounded-md px-20 py-1 mx-auto
+                    bg-primary text-white border border-transparent rounded-xl px-20 py-1 mx-auto
                     hover:bg-white hover:text-primary hover:border-primary transition duration-300 cursor-pointer"
                 >
                     Patinar con estilo
