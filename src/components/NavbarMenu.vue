@@ -30,10 +30,10 @@
         isFixed ? 'top-0 shadow-lg' : 'top-8']"
     >
         <div class=" flex flex-row space-x-10 mx-auto justify-between">
-            <a href="#home" class="font-semibold text-primary hover:text-tertiary">Inicio</a>            
-            <a href="#products"class="font-semibold text-primary hover:text-tertiary">Productos</a>
-            <a href="#videos"class="font-semibold text-primary hover:text-tertiary">Videos</a>
-            <a href="#footer"class="font-semibold text-primary hover:text-tertiary">Sobre nosotros</a>
+            <a href="#home" class="font-semibold text-primary hover:text-tertiary active:text-secondary">Inicio</a>            
+            <a href="#products"class="font-semibold text-primary hover:text-tertiary active:text-secondary">Productos</a>
+            <a href="#videos"class="font-semibold text-primary hover:text-tertiary active:text-secondary">Videos</a>
+            <a href="#footer"class="font-semibold text-primary hover:text-tertiary active:text-secondary">Sobre nosotros</a>
         </div>
         <div class="flex space-x-4">
             <div class="text-primary hover:text-tertiary cursor-pointer">

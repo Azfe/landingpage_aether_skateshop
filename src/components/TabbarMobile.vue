@@ -4,7 +4,7 @@
         <div v-show="showLogo" class="flex flex-grow flex-row flex-nowrap items-center animate-fade-slide">
             <img src="../assets/images/logo/logo_aether_skateshop.svg" alt="logo aether skateshop" class="logo w-10 h-10 mr-4">        
             <div class="flex flex-col">
-                    <h1 class="logotext text-2xl font-bold text-gray-75">Aether Skateshop</h1>
+                    <h1 class="logotext text-2xl font-bold text-tertiary">Aether Skateshop</h1>
                     <!--<p class="text-md text-gray-75 md:hidden">Feel the infinite</p>-->
             </div>
         </div>
@@ -20,15 +20,15 @@
             <!-- Menú desplegable -->
             <transition name="fade">
                 <div v-if="isOpen" class="absolute top-10 right-0 w-48 p-2 bg-white border border-gray-200 rounded-md shadow-lg">
-                    <a href="#home" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" @click="toggleMenu">Inicio</a>            
+                    <a href="#home" class="block px-4 py-2 text-gray-700 hover:bg-primary active:text-secondary" @click="toggleMenu">Inicio</a>            
                     <hr class="border-t-1 border-gray-37 w-4/5 mx-auto rounded-full">
-                    <a href="#products" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" @click="toggleMenu">Productos</a>
+                    <a href="#products" class="block px-4 py-2 text-gray-700 hover:bg-primary active:text-secondary" @click="toggleMenu">Productos</a>
                     <hr class="border-t-1 border-gray-37 w-4/5 mx-auto rounded-full">
-                    <a href="#videos" class="block px-4 py-2 text-gray-700 hover:bg-gray-100" @click="toggleMenu">Videos</a>
+                    <a href="#videos" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:text-secondary" @click="toggleMenu">Videos</a>
                     <hr class="border-t-1 border-gray-37 w-4/5 mx-auto rounded-full">
-                    <a href="#footer"class="block px-4 py-2 text-gray-700 hover:bg-gray-100" @click="toggleMenu">Sobre nosotros</a>
+                    <a href="#footer"class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:text-secondary" @click="toggleMenu">Sobre nosotros</a>
                     <hr class="border-t-1 border-gray-37 w-4/5 mx-auto rounded-full">
-                    <a href="#login"class="block px-4 py-2 text-gray-700 hover:bg-gray-100" @click="toggleMenu">Iniciar sesión</a>
+                    <a href="#login"class="block px-4 py-2 text-gray-700 hover:bg-gray-100 active:text-secondary" @click="toggleMenu">Iniciar sesión</a>
                 </div>
             </transition> 
         </div> 
