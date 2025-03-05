@@ -13,7 +13,7 @@
                     <h3 class="text-4xl font-bold text-tertiary">Deslízate con estilo</h3>                  
                 </div>
                 <button class="
-                    bg-primary text-white border border-transparent rounded-xl px-20 py-1 mx-auto
+                    h-9 bg-primary text-white border border-transparent rounded-xl px-20 py-1 mx-auto
                     hover:bg-white hover:text-primary hover:border-primary transition duration-300 cursor-pointer"
                 >
                     Patinar con estilo

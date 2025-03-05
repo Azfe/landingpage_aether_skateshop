@@ -19,7 +19,7 @@
                 <small class="text-gray-75">7.75" - 8.25"</small>                           
             </div>
             <button class="
-                bg-primary text-white border border-transparent rounded-xl px-20 py-1 mx-auto
+                h-9 bg-primary text-white border border-transparent rounded-xl px-20 py-1 mx-auto
                 hover:bg-white hover:text-primary hover:border-primary transition duration-300 cursor-pointer"
             >
                 Comprar

@@ -20,7 +20,7 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum  tempus nibh, ultricies sodales magna dictum in. Ut porttitor eros in  purus tincidunt auctor. Aliquam semper dolor at erat scelerisque  pretium. Fusce lorem tortor, rhoncus quis enim faucibus, facilisis  pellentesque metus.
                 </p>
-                <button class=" outline-1 outline-offset-4 outline-solid rounded-md px-25 mt-2 hover:outline-primary hover:text-primary transition duration-300 cursor-pointer">
+                <button class="h-9 outline-1 outline-offset-4 outline-solid rounded-xl px-25 mt-2 hover:outline-primary hover:text-primary transition duration-300 cursor-pointer">
                     Empezar a rodar
                 </button>
             </div>
