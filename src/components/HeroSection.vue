@@ -7,7 +7,7 @@
         <div class="flex items-center h-full text-white pb-70 lg:pt-87 mx-30 transition-all duration-500 ease-in-out">
             <img src="../assets/images/logo/logo_aether_skateshop.svg" alt="logo_aether_skateshop" class="logo w-20 h-20 mr-4">
             <div>
-                <h1 class="logotext text-4xl font-bold">Aether Skateshop</h1>
+                <h1 class="logo logotext text-4xl font-bold">Aether Skateshop</h1>
                 <p class="text-lg">Feel the infinite</p>
             </div>
         </div>
@@ -32,15 +32,14 @@
 </template>
 
 <style>
-.logo {
-    
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em var(--color-primary));
-  }
-  .logotext:hover {
-    filter: drop-shadow(0 0 2em var(--color-white));
-  }
+    .logo {
+        will-change: filter;
+        transition: filter 300ms;
+    }
+    .logo:hover {
+        filter: drop-shadow(0 0 2em var(--color-primary));
+    }
+    .logotext:hover {
+        filter: drop-shadow(0 0 2em var(--color-white));
+    }
 </style>
