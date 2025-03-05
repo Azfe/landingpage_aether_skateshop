@@ -37,6 +37,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Desplazamiento suave */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Images */
 .bg-hero{
   background-image: url('./src/assets/images/hero.jpg');
@@ -63,6 +68,8 @@
 .CardTitle{
   @apply text-3xl px-8 pt-8 pb-1 font-semibold text-white;
 }
+
+
 
 
 

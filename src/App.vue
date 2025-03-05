@@ -31,7 +31,6 @@ import RRSSSection from './components/RRSSSection.vue'
   
 </template>
 
-
 <style scoped>
   .logo {
     height: 6em;
