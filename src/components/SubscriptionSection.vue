@@ -22,7 +22,7 @@
                     </div>
                     <div class="flex flex-col gap-4">
                         <button class="h-9 bg-primary text-white border border-transparent rounded-xl w-67 
-                            hover:bg-transparent hover:text-primary hover:border-primary active:border-secondary active:text-secondary 
+                            hover:bg-transparent hover:text-primary hover:border-primary  active:bg-white 
                             transition duration-300 cursor-pointer"                         
                         >
                             Suscribirme
