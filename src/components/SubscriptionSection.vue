@@ -38,7 +38,9 @@
         </div>              
         
         <div class="pb-10">
-            <p class="text-gray-75 text-center">(*) Oferta valida online para los nuevos inscritos. Condiciones de uso detalladas en el email de bienvenida.</p>
+            <p class="text-gray-75 text-center mx-20">
+                (*) Oferta valida online para los nuevos inscritos. Condiciones de uso detalladas en el email de bienvenida.
+            </p>
         </div>
     </section>
 </template>
