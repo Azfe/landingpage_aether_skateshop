@@ -21,7 +21,7 @@
                         <!-- Botón de Play -->
                     <button class="
                         button-play absolute inset-0 m-auto flex items-center justify-center w-1/4 h-1/4 max-w-full max-h-full 
-                        bg-secondary bg-opacity-50 rounded-full hover:bg-opacity-70 transition-all cursor-pointer"
+                        bg-opacity-50 rounded-full transition-colors duration-300 cursor-pointer"
                     >
                         <svg 
                             viewBox="0 0 22 27" fill="currentColor" xmlns="http://www.w3.org/2000/svg" 
@@ -40,7 +40,7 @@
                     <!-- Botón de Play -->
                     <button class="
                         button-play absolute inset-0 m-auto flex items-center justify-center w-1/4 h-1/4 max-w-full max-h-full 
-                        bg-secondary bg-opacity-50 rounded-full hover:bg-opacity-70 transition-all cursor-pointer"
+                        bg-opacity-50 rounded-full transition-colors duration-300 cursor-pointer"
                     >
                         <svg 
                             viewBox="0 0 22 27" fill="currentColor" xmlns="http://www.w3.org/2000/svg" 
@@ -56,7 +56,7 @@
                     <!-- Botón de Play -->
                     <button class="
                         button-play absolute inset-0 m-auto flex items-center justify-center w-1/4 h-1/4 max-w-full max-h-full 
-                        bg-secondary bg-opacity-50 rounded-full hover:bg-opacity-70 transition-all cursor-pointer"
+                        bg-opacity-50 rounded-full transition-colors duration-300 cursor-pointer"
                     >
                         <svg 
                             viewBox="0 0 22 27" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@
 <style scoped>
     .button-play{
         background-color: rgba(215, 6, 48, 0.801);
-        transition: color 0.3s;
+        /*transition: color 0.3s; */       
     }
     .button-play:hover{
         background-color: rgba(166, 237, 142, 0.85);
