@@ -14,7 +14,8 @@
                 </div>
                 <button class="
                     h-9 bg-primary text-white border border-transparent rounded-xl px-20 py-1 mx-auto
-                    hover:bg-white hover:text-primary hover:border-primary transition duration-300 cursor-pointer"
+                    hover:bg-white hover:text-primary hover:border-primary active:border-secondary active:text-secondary 
+                    transition duration-300 cursor-pointer"
                 >
                     Patinar con estilo
                 </button>
